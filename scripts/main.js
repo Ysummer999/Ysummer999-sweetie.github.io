@@ -1,7 +1,7 @@
 setInterval(test,3000);  
 var array=new Array();
 var index=0;
-var array= new Array("images/plan1.JPG","images/plan2.JPG","images/plan3.JPG","images/plan4.JPG","images/plan5.JPG","images/plan6.JPG","images/plan7.JPG");
+var array= new Array("images/plan1.jpg","images/plan2.JPG","images/plan3.JPG","images/plan4.JPG","images/plan5.JPG","images/plan6.JPG","images/plan7.JPG");
 function test()
  {    var myimg=document.getElementById("imgs"); 
 if(index==array.length-1)
