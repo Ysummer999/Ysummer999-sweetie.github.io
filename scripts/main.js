@@ -11,11 +11,11 @@ if(index==array.length-1)
 
 function setHeading(name) {
   let myHeading = document.querySelector('h1');
-  myHeading.textContent = 'ÆßÏ¦¿ìÀÖÑ¼' + name + '~';
+  myHeading.textContent = 'ä¸ƒå¤•å¿«ä¹é¸­' + name + '~';
 }
 
 function setUserName() {
-  let myName = prompt('Äã½ĞÊ²Ã´Ñ¼');
+  let myName = prompt('ä½ å«ä»€ä¹ˆé¸­');
   localStorage.setItem('name', myName);
   setHeading(myName);
 } 
@@ -25,7 +25,7 @@ if(!storedName) {
    setUserName();
 } else {
    setHeading(storedName);
-}//³õÊ¼»¯´úÂë
+}//ë†“è¿¦ëºëœì¯¤
 
 let myButton = document.querySelector('button'); 
 myButton.onclick = setUserName;
