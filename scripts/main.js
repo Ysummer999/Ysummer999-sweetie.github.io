@@ -25,7 +25,7 @@ if(!storedName) {
    setUserName();
 } else {
    setHeading(storedName);
-}//놓迦뺏덜쯤
+}
 
 let myButton = document.querySelector('button'); 
 myButton.onclick = setUserName;
